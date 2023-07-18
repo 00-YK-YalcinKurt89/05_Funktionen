@@ -94,11 +94,13 @@ let outputStr = "Hallo" + GAP + firstName + GAP + familyName + "!";
 /***** Funktionen 03b *****/
 // 03b Funktionalitäten --> Funktionen| return
 
-    // 1. Funktionalität: string composing
+// 1. Funktionalität: string composing
 
 output(getString("Yalcin", "Kurt"));
 output(getString(prompt("Vorname?"), prompt("Name?")))
 
+
+/* INPUT --> Parameter | return --> OUTPUT */
 function getString(firstName, familyName) {
     const GAP = " ";
     let outputStr = "Hallo" + GAP + firstName + GAP + familyName + "!"; 
